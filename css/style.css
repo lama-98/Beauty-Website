@@ -1,0 +1,1230 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+
+}
+body, ul, li, h1, h2, a, p{
+    margin: 0;
+    padding: 0;
+    font-family: tahoma;
+}
+#main{
+    margin-top: 3%;
+    width: 25%;
+    height: 30%;
+    text-align: center;
+    position: fixed;
+    top: 40%;
+    left: 35%;
+    z-index: 1;
+    font-size: 28px;
+    color: brown;
+}
+#pic1{
+    border-radius: 20px;
+    width: 40%;
+    height: 35%;
+    position: fixed;
+    
+}
+#pic2{
+    border-radius: 20px;
+    width: 40%;
+    height: 35%;
+    position: fixed;
+    left: 60%;
+    top: 2%;
+}
+#pic3{
+    border-radius: 20px;
+    width: 35%;
+    height: 25%;
+    position: fixed;
+    left: 30%;
+    top: 75%;
+}
+#pic4{
+    border-radius: 20px;
+    width: 20%;
+    height: 25%;
+    position: fixed;
+    left: 42%;
+    top: 15%;
+}
+#pic5{
+    border-radius: 20px;
+    width: 40%;
+    height: 35%;
+    position: fixed;
+    top: 62%;
+    left: 62%;
+    z-index: -1;
+}
+#pic6{
+    border-radius: 20px;
+    width: 30%;
+    height: 25%;
+    position: fixed;
+    top: 37%;
+    right: 65%;
+}
+#pic7{
+    border-radius: 20px;
+    width: 30%;
+    height: 35%;
+    position: fixed;
+    top: 63%;
+    right: 73%;
+}
+/* responsive styles  (index)*/
+
+@media (max-width:767px){
+    p{
+        font-size: 24px;
+    } 
+}
+@media (min-width:768px){
+    p{
+        font-size: 24px;
+    } 
+}
+@media (min-width:992px){
+    p{
+        font-size: 26px;
+    } 
+}
+@media (min-width:1200px){
+    p{
+        font-size: 30px;
+    } 
+}
+
+
+           /* womenwear style */
+header{
+    width: 100%;
+    padding: 20px;
+    position: fixed;
+    top: 0%;
+    z-index: 1;
+}
+header .hdiv{
+    display: inline;
+    float: left;
+}
+header ul{
+    white-space: nowrap;
+    max-width: 1300px;
+    margin: 0 auto;
+    text-align: left;
+
+}
+header ul li{
+    display: inline-block;
+
+}
+.hd1{
+    background-color: indianred;
+}
+header  a{
+    text-decoration: none;
+    color: #4b4b4b;
+}
+header ul li a:hover{
+     position: relative;
+     bottom: 15px;
+}
+header img{
+    height: 8%;
+    border-radius: 50%;
+
+}
+nav{
+    height: 100%;
+    float: left;
+    background-color: #ebdecb;
+    text-align: center;
+    position: fixed;
+    padding-top: 2%;
+}
+nav ul{
+    background-color: #ebdecb;
+    padding-top: 10%;
+}
+nav ul li{
+    list-style-type: none;
+    background-color: #ebdecb;
+}
+nav ul li a{
+    text-decoration: none;
+    background-color: #ebdecb;
+    color: #4b4b4b;
+}
+article{
+    float: right;
+}
+.slide{
+    overflow: hidden;
+
+}
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+.next{
+    position: relative;
+    left: 96%;
+}
+.prev, .next {
+    float: left;
+    cursor: pointer;
+    
+}
+.content{
+    text-align: center;
+    position: absolute;
+    left: 15%;
+    
+}
+.content li{
+    display: inline-block;
+    width: 27%;
+    height: 100%;
+    padding-left: 2%;
+    font-weight: bold;
+}
+.content li img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.content p{
+    width: 100%;
+    display: inline-block;
+    border-radius: 2px;
+    position: relative;
+}
+.pg1{
+    background-color: indianred;
+    color: antiquewhite; 
+}
+.product{
+    width: 100%;
+    position: relative;
+    display: inline-block;
+
+}
+.product h1{
+    width: 100%;
+    height: 7%;
+}
+.product span{
+    display: inline-block;
+    
+}
+.product span p img{
+    width: 100%;
+}
+.product span p{
+    text-align: center;
+    color: #4b4b4b;
+    font-family: tahoma;
+
+}
+.products{
+    width: 100%;
+    position: relative;
+    top: 0px;
+    display: inline-block;
+}
+.products h1{
+    width: 100%;
+    height: 7%;
+}
+.products span{
+    display: inline-block;
+    
+}
+.products span p img{
+    width: 100%;
+}
+.products span p{
+    text-align: center;
+    color: #4b4b4b;
+    font-family: tahoma;
+
+}
+footer {
+    width: 100%;
+    clear: both;
+    position: relative;
+    bottom: 0;
+}
+footer span{
+    display: inline-block;
+    padding: 2%;
+}
+footer span p{
+    display: inline-block;
+    color: #4b4b4b;
+}
+footer img{
+    height: 8%;
+    border-radius: 50%;
+}
+.end {
+    width: 100%;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    
+}
+.end5 {
+    width: 100%;
+    clear: both;
+    position: relative;
+    bottom: 0;
+    
+}
+.a1{
+    background-color: indianred;
+}
+
+
+           /* menwear style */
+.hd2{
+    background-color: rgb(8, 54, 70);
+}
+.a2{
+    background-color: rgb(8, 54, 70);
+    color: #a6a4a4;
+}
+.pg2{
+    background-color: rgb(8, 54, 70);
+    color: rgb(200, 221, 228);
+}
+
+            /* bags style */
+
+.hd3{
+    background-color: #114827;
+    color: #e9d4bf;
+}
+.a3{
+    background-color: #114827;
+    color: #e9d4bf;
+}
+.pg3{
+    background-color: #114827;
+    color: #f3cca6;
+}
+            /* shoes style */
+
+.hd4{
+    background-color: #759183;
+}
+.a4{
+    background-color: #759183;
+    color: #1a2821;
+}
+.pg4{
+    background-color: #759183;
+    color: #c3dcc9;
+}
+            /* kidswear style */
+
+.hd5{
+    background-color: #dad8cc;
+}
+.a5{
+    background-color: #dad8cc;
+    color: #616060;
+}
+.pg5{
+    background-color: #dad8cc;
+    color: #5d5a4e;
+}
+
+            /* perfume style */
+
+.hd6{
+    background-color: #682934;
+}
+.a6{
+    background-color: #682934;
+    color: #edd5bd;
+}
+.pg6{
+    background-color: #682934;
+    color: #dec6ae;
+}
+
+            /* makeup style */
+
+.hd7{
+    background-color: #5f3f36;
+}
+.a7{
+    background-color: #5f3f36;
+    color: #e2caba;
+}
+.pg7{
+    background-color: #5f3f36;
+    color: #dfb398;
+}
+
+
+        /* responsive styles  (womenwear, menwear, bags, shoes, kidswear, perfume, makeup)*/
+
+@media (max-width:500px){
+    header ul li{
+        font-size: 16px;
+        margin: 0 0 3% 1%;
+    }
+    header .hdiv h1{
+        font-size: 18px;
+        margin: 7px 7px 0 -15px;
+    }
+    #hdr1 img, #hdr5 img, #hdr7 img{
+        width: 5.5%;
+    }
+    #hdr2 img, #hdr3 img, #hdr4 img, #hdr6 img{
+        width: 6%;
+    }
+    #hdr1, #hdr2, #hdr5, #hdr7{
+        position: relative;
+        right: 110px;
+        top: 30px;
+    }
+    #hdr3{
+        position: relative;
+        left: 30px;
+        top: 30px;
+    }
+    #hdr4, #hdr6{
+        position: relative;
+        right: 40px;
+        top: 30px;
+    }
+    .a1, .a2, .a3, .a4, .a5, .a6, .a7{
+        margin-right: -1%;
+    }
+    nav{
+        width: 20%;
+        padding-top: 20%;
+        font-size: 14px;
+        position: fixed;
+        top: 5px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    article{
+        width: 70%;
+        margin: 20% 5% 5%;
+        height: 100%;
+    }
+    .mainart{
+        width: 70%;
+        margin: 20% 5% 5%;
+        height: 1840px;
+    }
+    .slider, .slide{
+        height: 300px;
+        position: relative;
+        right: 7px;
+    }
+    .prev, .next{
+        width: 8%;
+    }
+    .prev{
+        position: relative;
+        top: 39%;
+        right: 3%;
+    }
+    .next{
+        position: relative;
+        bottom: 61%;
+        left: 99%;
+    }
+    .content{
+        height: 240px;
+        padding-right: 50px;
+        position: absolute;
+        left: 27%;
+        top: 58%;
+    }
+    .content li{
+        width: 30%;
+        font-weight: 100;
+        padding-left: 0;
+        margin-left: 5px;
+    }
+    .content p{
+        font-size: 18px;
+        border-radius: 3px;
+        position: relative;
+        bottom: 60%;
+    }
+    .product{
+        position: relative;
+        top: 250px;
+    }
+    .product h1{
+        font-size: 20px;
+    }
+    .product span{
+        width: 49.2%;
+    }
+    .product span p img{
+        height: 250px;
+    }
+    .product span p{
+        font-size: 16px;
+    }
+    .products span{
+        width: 49.2%;
+    }
+    .products span p img{
+        height: 250px;
+    }
+    .products span p{
+        font-size: 16px;
+    }
+    .photo1, .photo3{
+        padding: 4% 3% 0 0;
+    }
+    .photo2, .photo4{
+        padding: 4% 0 0 4%;
+    }
+    footer{
+        position: relative;
+        bottom: 0;
+        top: 0;
+    }
+    footer span{
+        width: 32%;
+        padding: 1%;
+    }
+    #beauty{
+        font-size: 20px;
+    }
+    footer span p{
+        font-size: 16px;
+    }
+    footer span img{
+        width: 15%;
+    }
+    .end{
+        position: relative;
+        bottom: 0;
+        top: auto;
+    }
+    .end5{
+        position: relative;
+        bottom: 0;
+        top: auto;
+    }
+}
+
+
+@media (max-width:480px){
+    
+    .content{
+        position: absolute;
+        top: 67%;
+    }
+    footer{
+        position: relative;
+        bottom: 0;
+    }
+    .end{
+        position: relative;
+        bottom: 0;
+        top: auto;
+    }
+    .end5{
+        position: relative;
+        bottom: 0;
+        top: auto;
+    }
+}
+
+@media (max-width:320px){
+    header{
+        padding: 20px 0;
+    }
+    header .hdiv h1{
+        font-size: 16px;
+        margin: 0 0px 0 5px;
+    }
+    header div ul li{
+        display: table-cell;
+        padding-right: 8px;
+        font-size: 14px;
+    }
+    header div ul .hd1, header div ul .hd2, header div ul .hd5{
+        padding-left: 5px;
+    }
+    header div ul .hd3, header div ul .hd4, header div ul .hd6{
+        padding-left: 20px;
+    }
+    #hdr1 img, #hdr2 img, #hdr3 img, #hdr4 img, #hdr5 img, #hdr6 img, #hdr7 img{
+        width: 20px;
+    }
+    #hdr1, #hdr2{
+        position: relative;
+        right: 110px;
+        top: -20px;
+    }
+    #hdr3{
+        position: relative;
+        left: -65px;
+        top: -15px;
+    }
+    #hdr4{
+        position: relative;
+        right: 140px;
+        top: -20px;
+    }
+    #hdr5, #hdr7{
+        position: relative;
+        right: 125px;
+        top: -20px;
+    }
+    #hdr6{
+        position: relative;
+        right:60px;
+        top: -20px;
+    }
+    nav{
+        padding-top: 25%;
+    }
+    nav ul li a{
+        font-size: 12px;
+    }
+    article{
+        margin: 30% 6% 5%;
+    }
+    .slide, .slider{
+        height: 240px;
+        position: relative;
+        top: 2%;
+        right: 2%;
+    }
+    .prev{
+        position: relative;
+        top: 42%;
+        right: 3%;
+    }
+    .next{
+        position: relative;
+        bottom: 58%;
+        left: 99%;
+    }
+    .content{
+        position: absolute;
+        top: 60%;
+    }
+    .content li{
+        display: inline;
+    }
+    .lia1{
+        position: relative;
+        bottom: 480px;
+    }
+    .lia2{
+        position: relative;
+        bottom: 250px;
+    }
+    .lia3{
+        position: relative;
+        bottom: 25px;
+    }
+    .product{
+        position: relative;
+        top: 770px;
+    }
+    .product h1{
+        font-size: 18px;
+    }
+    .product span, .products span{
+        width: 48.8%;
+    }
+    .product span p img, .products span p img{
+        height: 150px;
+    }
+    .product span p, .product span p{
+        font-size: 14px;
+    }
+    footer{
+        position: relative;
+        bottom: 0;
+    }
+    .end{
+        position: relative;
+        bottom: 0;
+        top:auto;
+    }
+    .end5{
+        position: relative;
+        bottom: 0;
+        top: auto;
+    }
+}
+
+
+@media (min-width:501px) and (max-width:767.9px){
+    header .hdiv h1{
+        font-size: 22px;
+        margin: 5px 10px 20px -20px;
+    }
+    header ul li{
+        margin: 0 0.5% auto;
+        display: inline-block;
+        font-size: 16px;
+    }
+    #hdr1 img, #hdr5 img, #hdr7 img{
+        width: 5.5%;
+    }
+    #hdr2 img, #hdr3 img, #hdr4 img, #hdr6 img{
+        width: 6%;
+    }
+    #hdr1, #hdr2, #hdr5, #hdr7{
+        position: relative;
+        right: 110px;
+        top: 40px;
+    }
+    #hdr3{
+        position: relative;
+        left: 30px;
+        top: 40px;
+    }
+    #hdr4, #hdr6{
+        position: relative;
+        right: 40px;
+        top: 30px;
+    }
+    .a1, .a2, .a3, .a4, .a5, .a6, .a7{
+        margin-right: -1%;
+    }
+    nav{
+        width: 20%;
+        padding-top: 2%;
+        position: fixed;
+        top: 90px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    article{
+        width: 75%;
+        margin: 15% 2% 5% 5%;
+        height: 100%;
+    }
+    .mainart{
+        width: 70%;
+        margin: 20% 5% 5% 5%;
+        height: 1865px;
+    }
+    .slider, .slide{
+        height: 300px;
+        position: relative;
+        right: 6px;
+    }
+    .prev, .next{
+        width: 6%;
+    }
+    .prev{
+        position: relative;
+        top: 39%;
+        right: 3%;
+    }
+    .next{
+        position: relative;
+        bottom: 61%;
+        left: 100%;
+    }
+    .content{
+        height: 250px;
+        position: absolute;
+        left: 20%;
+    }
+    .content li{
+        font-weight: normal;
+        position: relative;
+        bottom: 1%;
+    }
+    .lia1, .lia2, .lia3{
+        position: relative;
+        bottom: 55%;
+    }
+    .content li p{
+        font-size: 18px;
+    }
+    .product{
+        position: relative;
+        top: 280px;
+    }
+    .product h1{
+        font-size: 22px;
+    }
+    .product span, .products span{
+        width: 49%;
+    }
+    .product span p, .products span p{
+        font-size: 18px;
+    }
+    .product span p img, .products span p img{
+        height: 250px;
+    }
+    .photo1, .photo3{
+        padding: 3% 2% 0 0;
+    }
+    .photo2{
+        padding: 3% 0 0 1.6%;
+    }
+    .photo4{
+        padding: 3% 0 0 auto;
+    }
+    footer{
+        position: relative;
+        bottom: 0;
+    }
+    #beauty{
+        font-size: 22px;
+    }
+    footer span{
+        width: 32%;
+    }
+    footer span p{
+        font-size: 18px;
+    }
+    footer span img{
+        width: 15%;
+    }
+    .end, .end5{
+        position: relative;
+        bottom: 0;
+        top: auto;
+    }
+}
+
+@media (min-width:768px) and (max-width:991.9px){
+    header .hdiv h1{
+        font-size: 24px;
+        margin: 1px 15px 0px 0px;
+    }
+    header ul li{
+        margin: 0 1% auto;
+        display: inline-block;
+        font-size: 20px;
+    }
+    #hdr1 img, #hdr5 img, #hdr7 img{
+        width: 6%;
+    }
+    #hdr2 img, #hdr3 img, #hdr4 img, #hdr6 img{
+        width: 6%;
+    }
+    #hdr1{
+        padding-left: 4%;
+    }
+    #hdr2{
+        padding-left: 13%;
+    }
+    #hdr3{
+        padding-left: 38%;
+    }
+    #hdr4{
+        padding-left: 24%;
+    }
+    #hdr5{
+        padding-left: 3%;
+    }
+    #hdr6{
+        padding-left: 29%;
+    }
+    #hdr7{
+        padding-left: 0%;
+    }
+    .a1, .a2, .a3, .a4, .a5, .a6, .a7{
+        margin-right: -1%;
+    }
+    nav{
+        width: 20%;
+        top: 9%;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    article{
+        width: 75%;
+        margin:12% 4% 5%;
+        height: 100%;
+    }
+    .mainart{
+        width: 70%;
+        margin: 12% 7% 5%;
+        height: 1250px;
+    }
+    .slider, .slide{
+        height: 350px;
+    }
+    .prev, .next{
+        width: 6%;
+    }
+    .prev{
+        position: relative;
+        top: 39%;
+        right: 2%;
+    }
+    .next{
+        position: relative;
+        bottom: 61%;
+        left: 102%;
+    }
+    .content{
+        height: 250px;
+        position: absolute;
+        left: 20%;
+        top: 65%;
+    } 
+    .content li p{
+        font-size: 20px;
+    }
+    .lia1, .lia2, .lia3{
+        position: relative;
+        bottom: 55%;
+    }
+    .product{
+        position: relative;
+        top: 250px;
+        left: 3%;
+    }
+    .products{
+        margin-left: 2.5%;
+    }
+    .product h1{
+        font-size: 24px;
+    }
+    .product span, .products span{
+        width: 24.2%;
+    }
+    .product span p, .products span p{
+        font-size: 18px;
+    }
+    .product span p img, .products span p img{
+        height: 230px;
+    }
+    .photo1{
+        padding: 2% 2% 0 0;
+    }
+    .photo2{
+        padding: 2% 2% 0 1.6%;
+    }
+    .photo3{
+        padding: 2% 2% 0 1.6%;
+    }
+    .photo4{
+        padding: 2% 0 0 1.6%;
+    }
+    footer{
+        position: relative;
+        bottom: 0;
+    }
+    #beauty{
+        font-size: 22px;
+    }
+    footer span{
+        width: 32%;
+    }
+    footer span p{
+        font-size: 18px;
+    }
+    footer span img{
+        width: 12%;
+    }
+    .end, .end5{
+        position: relative;
+        bottom: 0;
+        top: auto;
+    }
+}
+
+@media (min-width:992px) and (max-width:1199.9px){ 
+    header .hdiv h1{
+        font-size: 28px;
+        margin: 6px 15px 0px 0px;
+    }
+    header ul li{
+        margin: 0 1% auto;
+        display: inline-block;
+        font-size: 22px;
+    }
+    #hdr1 img, #hdr5 img, #hdr7 img{
+        width: 7%;
+    }
+    #hdr2 img, #hdr3 img, #hdr4 img, #hdr6 img{
+        width: 7%;
+    }
+    #hdr1{
+        padding-left: 14%;
+    }
+    #hdr2{
+        padding-left: 22%;
+    }
+    #hdr3{
+        padding-left: 43%;
+    }
+    #hdr4{
+        padding-left: 31%;
+    }
+    #hdr5{
+        padding-left: 13%;
+    }
+    #hdr6{
+        padding-left: 36%;
+    }
+    #hdr7{
+        padding-left: 10%;
+    }
+    .a1, .a2, .a3, .a4, .a5, .a6, .a7{
+        margin-right: 0%;
+    }
+    nav{
+        width: 20%;
+        top: 9%;
+    }
+    nav ul li a{
+        font-size: 22px;
+    }
+    article{
+        width: 75%;
+        margin: 10% 4% 3%;
+        height: 100%;
+    }
+    .mainart{
+        width: 70%;
+        margin: 10% 7% 5%;
+        height: 1420px;
+    }
+    .slider, .slide{
+        height: 350px;
+    }
+    .prev, .next{
+        width: 6%;
+    }
+    .prev{
+        position: relative;
+        top: 39%;
+        right: 2%;
+    }
+    .next{
+        position: relative;
+        bottom: 61%;
+        left: 102%;
+    }
+    .content{
+        height: 250px;
+        position: absolute;
+        left: 20%;
+        top: 67%;
+    } 
+    .content li p{
+        font-size: 22px;
+    }
+    .lia1, .lia2, .lia3{
+        position: relative;
+        bottom: 55%;
+    }
+    .product{
+        position: relative;
+        top: 260px;
+        left: 3%;
+    }
+    .products{
+        margin-left: 2.5%;
+    }
+    .product h1{
+        font-size: 28px;
+    }
+    .product span, .products span{
+        width: 24.4%;
+    }
+    .product span p, .products span p{
+        font-size: 18px;
+    }
+    .product span p img, .products span p img{
+        height: 300px;
+    }
+    .photo1{
+        padding: 2% 2% 0 0;
+    }
+    .photo2{
+        padding: 2% 2% 0 1.6%;
+    }
+    .photo3{
+        padding: 2% 2% 0 1.6%;
+    }
+    .photo4{
+        padding: 2% 0 0 1.6%;
+    }
+    footer{
+        position: relative;
+        bottom: 0;
+    }
+    #beauty{
+        font-size: 22px;
+    }
+    footer span{
+        width: 32%;
+    }
+    footer span p{
+        font-size: 20px;
+    }
+    footer span img{
+        width: 10%;
+    }
+    .end, .end5{
+        position: relative;
+        bottom: 0;
+        top: auto;
+    }
+} 
+
+@media (min-width:1200px){
+    header .hdiv h1{
+        font-size: 32px;
+        margin: 6px 15px 0px 0px;
+    }
+    header ul li{
+        margin: 0 1% auto;
+        display: inline-block;
+        font-size: 24px;
+    }
+    #hdr1 img, #hdr5 img, #hdr7 img{
+        width: 8%;
+    }
+    #hdr2 img, #hdr3 img, #hdr4 img, #hdr6 img{
+        width: 8%;
+    }
+    #hdr1{
+        padding-left: 23%;
+    }
+    #hdr2{
+        padding-left: 30%;
+    }
+    #hdr3{
+        padding-left: 49%;
+    }
+    #hdr4{
+        padding-left: 39%;
+    }
+    #hdr5{
+        padding-left: 22%;
+    }
+    #hdr6{
+        padding-left: 43%;
+    }
+    #hdr7{
+        padding-left: 19%;
+    }
+    nav{
+        width: 15%;
+        top: 9%;
+    }
+    nav ul li a{
+        font-size: 24px;
+    }
+    article{
+        width: 75%;
+        margin: 10% 4% 3%;
+        height: 100%;
+    }
+    .mainart{
+        width: 70%;
+        margin: 10% 7% 5%;
+        height: 1650px;
+    }
+    .slider, .slide{
+        height: 400px;
+        position: relative;
+        right: 1.5%;
+    }
+    .prev, .next{
+        width: 6%;
+    }
+    .prev{
+        position: relative;
+        top: 39%;
+        right: 2%;
+    }
+    .next{
+        position: relative;
+        bottom: 61%;
+        left: 102%;
+    }
+    .content{
+        height: 250px;
+        position: absolute;
+        left: 15%;
+        top: 80%;
+    } 
+    .content li p{
+        font-size: 24px;
+    }
+    .lia1, .lia2, .lia3{
+        position: relative;
+        bottom: 55%;
+    }
+    .product{
+        position: relative;
+        top: 280px;
+    }
+    .product h1{
+        font-size: 30px;
+    }
+    .product span, .products span{
+        width: 24.5%;
+    }
+    .product span p, .products span p{
+        font-size: 20px;
+    }
+    .product span p img, .products span p img{
+        height: 350px;
+    }
+    .photo1{
+        padding: 2% 2% 0 0;
+    }
+    .photo2{
+        padding: 2% 2% 0 1.6%;
+    }
+    .photo3{
+        padding: 2% 2% 0 1.6%;
+    }
+    .photo4{
+        padding: 2% 0 0 1.6%;
+    }
+    footer{
+        position: relative;
+        bottom: 0;
+    }
+    #beauty{
+        font-size: 24px;
+    }
+    footer span{
+        width: 33%;
+    }
+    footer span p{
+        font-size: 22px;
+    }
+    footer span img{
+        width: 10%;
+    }
+    .end, .end5{
+        position: relative;
+        bottom: 0;
+        top: auto;
+    }
+}
